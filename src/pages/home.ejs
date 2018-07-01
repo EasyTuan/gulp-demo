@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		
+		<!--样式文件引入-->
+		<%- include template/cssLink.ejs %>
+
+		<title></title>
+	</head>
+
+	<body>
+		<!--公用头部文件-->
+		<%- include('template/header.ejs',{index:0}) %><!--通过传入值渲染对应标签-->
+
+		<div class="container">
+			页面内容区域
+		</div>
+
+		<!--公用底部文件-->
+		<% include template/footer.ejs %>
+
+		<!--公用脚本文件-->
+		<% include template/scriptLink.ejs %>
+	</body>
+
+</html>

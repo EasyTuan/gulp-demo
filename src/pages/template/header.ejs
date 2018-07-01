@@ -1,0 +1,23 @@
+<header>
+	这是头
+	<nav id="primary-menu">
+		<ul>
+			<!--通过传入值渲染对应标签-->
+			<li class="<%- index==0?'current':'' %>">
+				<a href="index.html">
+					<div>首页</div>
+				</a>
+			</li>
+			<li class="<%- index==1?'current':'' %>">
+				<a href="transport.html">
+					<div>商城</div>
+				</a>
+			</li>
+			<li class="<%- index==2?'current':'' %>">
+				<a href="pallet.html">
+					<div>我的</div>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</header>
