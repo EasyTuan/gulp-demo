@@ -38,8 +38,8 @@ var config = {
         dist: DIST_DIR + 'images'                // images文件build后存放的目录：./dist/images  
     },
     font: {
-    	src: SRC_DIR + 'css/lib/**/*.ttf',        // font目录：./src/css/lib
-        dist: DIST_DIR + 'css/lib'                // font文件build后存放的目录：./dist/css/lib  
+    	src: SRC_DIR + 'fonts/**/*',        		// font目录：./src/fonts
+        dist: DIST_DIR + 'fonts/'                // font文件build后存放的目录：./dist/fonts
     }
 };
 

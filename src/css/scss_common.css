@@ -1,0 +1,6 @@
+.h1 {
+  font-size: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
