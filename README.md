@@ -87,3 +87,7 @@ npm run dev
 # 该命令适用于前后端完全分离模式，前端最后压缩打包
 npm run build
 ```
+
+# License
+
+[MIT](LICENSE)
